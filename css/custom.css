@@ -1,0 +1,97 @@
+/*
+Theme Name: Worthy - Free Powerful Theme by HtmlCoder
+Author:HtmlCoder
+Author URI:http://www.htmlcoder.me
+Version:1.0.0
+Created:November 2014
+License: Creative Commons Attribution 3.0 License (https://creativecommons.org/licenses/by/3.0/)
+File Description: Place here your custom CSS styles
+*/
+
+#myCarousel, .carousel-inner, .carousel-inner .item{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.carousel-inner .item{
+  z-index: 8;
+}
+.carousel-inner img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.message-slider{
+  background-color: #339beb;
+  position: absolute;
+  padding: 10px 25px;
+  left: 170px;
+  color: white;
+  opacity: 0;
+  bottom: -100px;
+  transition: all .8s;
+  z-index: 9;
+  font-size: 1.6em;
+  font-weight: normal;
+  text-transform: uppercase;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3)
+}
+
+.message-slider-bottom{
+  background-color: #1c82d0;
+  transition: all 1.7s;
+}
+
+.active .message-slider{
+  opacity: 1;
+  bottom: 30%;
+}
+
+.active .message-slider-bottom{
+  opacity: 1;
+  bottom: calc(30% - 65px);
+}
+
+.header{
+  background-color: rgba(44, 62, 80, .4);
+}
+
+
+
+.main-navigation .navbar-default .navbar-nav > li.active > a{
+}
+
+.fixed-header-on .header {
+    background-color: rgba(44, 62, 80,1.0);
+    padding: 5px 0;
+}
+
+.modal-body{
+  padding: 3px !important;
+  border-radius: 3px !important;
+}
+
+.modal-body img{
+  max-height: 100%;
+}
+
+.close span{
+  text-shadow: none !important;
+  color: white !important;
+  opacity: .6;
+}
+
+.close:hover span{
+  text-shadow: none !important;
+  color: white !important;
+  opacity: .8 !important;
+}
+
+.overlay-container:hover img{
+  transition: transform .3s ease;
+  transform: scale(1.2)
+}
+.overlay{
+  background: transparent !important;
+}
