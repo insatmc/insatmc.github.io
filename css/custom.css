@@ -99,3 +99,13 @@ File Description: Place here your custom CSS styles
 .overlay{
   background: transparent !important;
 }
+
+.c-title{
+  position: absolute;
+  bottom: 100px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: rgba(0,0,0, 0.3);
+  padding: 5px 10px;
+}
