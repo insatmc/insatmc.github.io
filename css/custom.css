@@ -109,3 +109,22 @@ File Description: Place here your custom CSS styles
   background-color: rgba(0,0,0, 0.3);
   padding: 5px 10px;
 }
+
+
+.item{
+  width: 100%;
+  text-align: center;
+  background-color: black;
+}
+.item .img-h{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.item img{
+  width: auto !important;
+  height: 100% !important;
+  display:block;
+    margin:auto;
+}
