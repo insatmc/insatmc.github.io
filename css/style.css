@@ -425,6 +425,8 @@ textarea {
 	-webkit-border-radius: 0px;
 	-moz-border-radius: 0px;
 	border-radius: 0px;
+	padding: 0 !important;
+	background-color: black;
 }
 .modal-header {
 	background-color: #55acee;
